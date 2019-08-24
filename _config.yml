@@ -17,10 +17,10 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
+  # sort_by: pushed
+  sort_by options:
+     - pushed
+     - stars
   limit: 9
   exclude:
     archived: false
@@ -28,22 +28,26 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
+  github: orionzhou
+  linkedin: orionzhou
+  google_scholar: Hcb6i0gAAAAJ
+  orcid: 0000-0001-5684-2256
+  twitter: orionzhou
+  email: zhoupenggeni@gmail.com
+  website: https://orionzhou.github.io
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
   # youtube: your_username
 
 topics:
