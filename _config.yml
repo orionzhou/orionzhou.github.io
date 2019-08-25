@@ -29,13 +29,13 @@ projects:
     # - repo-name
 
 social_media:
-  github: orionzhou
-  linkedin: orionzhou
-  google_scholar: Hcb6i0gAAAAJ
   orcid: 0000-0001-5684-2256
-  twitter: orionzhou
+  google_scholar: Hcb6i0gAAAAJ
+  linkedin: orionzhou
+  github: orionzhou
   email: zhoupenggeni@gmail.com
-  website: https://orionzhou.github.io
+  twitter: orionzhou
+  # website: https://orionzhou.github.io
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
