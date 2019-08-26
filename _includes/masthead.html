@@ -54,23 +54,47 @@
 {% endif %}
 
 <nav class="menu" aria-label="menubar">
-  <a class="menu-item selected" href="#url" aria-current="page">
+  {% if page.category == 'home' %}
+  <a class="menu-item selected" href="/" aria-current="page">
+  {% else %}
+  <a class="menu-item" href="/">
+  {% endif %}
     <i class="fas fa-home fa-sm fa-fw"></i>
     Home
   </a>
-  <a class="menu-item" href="#url">
+  
+  {% if page.category == 'profile' %}
+  <a class="menu-item selected" href="/profile" aria-current="page">
+  {% else %}
+  <a class="menu-item" href="/profile">
+  {% endif %}
     <i class="fas fa-user fa-sm fa-fw"></i>
     Profile
   </a>
-  <a class="menu-item" href="#url">
+  
+  {% if page.category == 'research' %}
+  <a class="menu-item selected" href="/research" aria-current="page">
+  {% else %}
+  <a class="menu-item" href="/research">
+  {% endif %}
     <i class="fas fa-search fa-sm fa-fw"></i>
     Research
   </a>
-  <a class="menu-item" href="#url">
+  
+  {% if page.category == 'posts' %}
+  <a class="menu-item selected" href="/posts" aria-current="page">
+  {% else %}
+  <a class="menu-item" href="/posts">
+  {% endif %}
     <i class="fas fa-file-alt fa-sm fa-fw"></i>
     Posts
   </a>
-  <a class="menu-item" href="#url">
+  
+  {% if page.category == 'links' %}
+  <a class="menu-item selected" href="/links" aria-current="page">
+  {% else %}
+  <a class="menu-item" href="/links">
+  {% endif %}
     <i class="fas fa-link fa-sm fa-fw"></i>
     Links
   </a>
