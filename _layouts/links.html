@@ -2,10 +2,13 @@
 
 <div class="container-lg py-6 p-responsive text-center">
   {% include navbar.html metadata=true %}
-
-  <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
+	<div class="col-md-8">
+		<div class="post">
+  <p {% if site.style == 'dark' %}class="text-white"{% endif %}>
     {{ content }}
-  </div>
+  </p>
+		</div>
+	</div>
   {% include copyright.html %}
 
 </div>

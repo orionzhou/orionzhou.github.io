@@ -10,8 +10,8 @@
         {{ user.bio }}
       </p>
       {% if user.location %}
-        <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-          <i class='fas fa-map-marker-alt fa-lg mx-1'></i>{{ user.location }}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+          <i class='fas fa-map-marker-alt fa-sm mx-2'></i>{{ user.location }}
         </div>
       {% endif %}
   </div>
