@@ -1,0 +1,50 @@
+{% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
+
+<nav class="UnderlineNav UnderlineNav--right" aria-label="navbar">
+  <div class="UnderlineNav-actions">
+    <i class="fas fa-dragon fa-lg float-left"></i>
+  </div>
+
+  <div class="UnderlineNav-body">
+    {% if page.category == 'home' %}
+    <a href="/" class="UnderlineNav-item selected">
+    {% else %}
+    <a href="/" class="UnderlineNav-item">
+    {% endif %}
+      <i class="fas fa-home fa-sm fa-fw"></i>Home
+    </a>
+    
+    {% if page.category == 'profile' %}
+    <a href="/profile" class="UnderlineNav-item selected">
+    {% else %}
+    <a href="/profile" class="UnderlineNav-item">
+    {% endif %}
+      <i class="fas fa-user fa-sm fa-fw"></i>Profile
+    </a>
+    
+    {% if page.category == 'research' %}
+    <a href="/research" class="UnderlineNav-item selected">
+    {% else %}
+    <a href="/research" class="UnderlineNav-item">
+    {% endif %}
+      <i class="fas fa-search fa-sm fa-fw"></i>Research
+    </a>
+    
+    {% if page.category == 'posts' %}
+    <a href="/posts" class="UnderlineNav-item selected">
+    {% else %}
+    <a href="/posts" class="UnderlineNav-item">
+    {% endif %}
+      <i class="fas fa-file-alt fa-sm fa-fw"></i>Posts
+    </a>
+    
+    {% if page.category == 'links' %}
+    <a href="/links" class="UnderlineNav-item selected">
+    {% else %}
+    <a href="/links" class="UnderlineNav-item">
+    {% endif %}
+      <i class="fas fa-link fa-sm fa-fw"></i>Links
+    </a>
+  </div>
+</nav>
+
