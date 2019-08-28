@@ -1,38 +1,38 @@
 orcid:
   name: ORCID
   profile_url_prefix: https://orcid.org/
-  icon_svg: '<i class="ai ai-orcid ai-2x text-gray-dark"></i>'
+  icon_svg: '<i class="ai ai-orcid ai-2x"></i>'
 
 google_scholar:
   name: Google Scholar
   profile_url_prefix: http://scholar.google.com/citations?user=
-  icon_svg: '<i class="ai ai-google-scholar ai-2x text-gray-dark"></i>'
+  icon_svg: '<i class="ai ai-google-scholar ai-2x"></i>'
 
 linkedin:
   name: LinkedIn
   profile_url_prefix: https://www.linkedin.com/in/
   share_url_prefix: https://www.linkedin.com/shareArticle?mini=true&url=
-  icon_svg: <i class="fab fa-linkedin-in fa-2x text-gray-dark"></i>
+  icon_svg: <i class="fab fa-linkedin-in fa-2x"></i>
 
 github:
   name: GitHub
   profile_url_prefix: https://github.com/
-  icon_svg: '<i class="fab fa-github fa-2x text-gray-dark"></i>'
+  icon_svg: '<i class="fab fa-github fa-2x"></i>'
 
 twitter:
   name: Twitter
   profile_url_prefix: https://www.twitter.com/
   share_url_prefix: https://twitter.com/share?url=
-  icon_svg: <i class="fab fa-twitter fa-2x text-gray-dark"></i>
+  icon_svg: <i class="fab fa-twitter fa-2x"></i>
 
 email:
   name: Email
   profile_url_prefix: "mailto:"
-  icon_svg: '<i class="fas fa-envelope fa-2x text-gray-dark"></i>'
+  icon_svg: '<i class="fas fa-envelope fa-2x"></i>'
 
 website:
   name: Website
-  icon_svg: '<i class="fas fa-globe fa-2x text-gray-dark"></i>'
+  icon_svg: '<i class="fas fa-globe fa-2x"></i>'
 
 behance:
   name: Behance

@@ -3,8 +3,8 @@
 <div class="container-lg py-6 p-responsive text-center">
   {% include navbar.html metadata=true %}
 
-  <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-    {{ content }}
+  <div class="f4 text-left{% if site.style == 'dark' %} text-white{% endif %} m-4">
+    {{ content | markdownify }}
   </div>
 
   <div class="my-6">

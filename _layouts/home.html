@@ -4,20 +4,22 @@
   {% include navbar.html metadata=true %}
 
   <div class="box-shadow-medium p-3 my-3 rounded-2 overflow-hidden no-underline">
-      <img src="{{ user.avatar_url }}" class="circle mb-3 float-left" style="max-width: 150px;">
-      <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
-      <p class="mb-2 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-        {{ user.bio }}
-      </p>
-      {% if user.location %}
-      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-          <i class='fas fa-map-marker-alt fa-sm mx-2'></i>{{ user.location }}
+      <img src="{{ user.avatar_url }}" class="circle float-left mr-6" style="max-width: 150px;">
+      <div class="f3 lh-default text-left">
+        <h1 class="{% if site.style == 'dark' %}text-white{% endif %} lh-default">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
+        {% if user.location %}
+        <div class="f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+            <i class='fas fa-map-marker-alt fa-sm mr-1'></i>{{ user.location }}
         </div>
-      {% endif %}
+        {% endif %}
+        <p class="f3 {% if site.style == 'dark' %}text-white{% else %}text-gray-dark{% endif %}">
+          {{ user.bio }}
+        </p>
+      </div>
   </div>
 
-  <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-    {{ content }}
+  <div class="f4 text-left{% if site.style == 'dark' %} text-white{% endif %} m-4">
+    {{ content | markdownify }}
   </div>
 
   {% include copyright.html %}

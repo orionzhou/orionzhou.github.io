@@ -2,17 +2,17 @@
   <hr>
   <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
     {% for account in site.social_media %}
-      <div class="{% unless forloop.last == true %}mr-3{% endunless %} mb-3">
+      <div class="{% unless forloop.last == true %}mr-3{% endunless %} mb-1">
         {% assign service_shortname = account[0] %}
         {% assign service = site.data.social_media[service_shortname] %}
-        <a href="{{ service.profile_url_prefix }}{{ account[1] }}" class="tooltipped tooltipped-se" aria-label="{{ service.name }}: {{ account[1] }}">
+        <a href="{{ service.profile_url_prefix }}{{ account[1] }}" class="tooltipped tooltipped-se muted-link" aria-label="{{ service.name }}: {{ account[1] }}">
           {{ service.icon_svg }}<span class="d-none">{{ service.name }}</span>
         </a>
       </div>
     {% endfor %}
   </div>
 
-  <div class="footer-copyright py-3 text-center text-gray-dark">
+  <div class="footer-copyright py-1 text-center text-gray-dark">
     <small>This website is open-source and available on 
     <a href="https://github.com/orionzhou/orionzhou.github.io" class="link-gray">Github</a>.</small>
   </div>
