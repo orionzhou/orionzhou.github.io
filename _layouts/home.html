@@ -5,7 +5,7 @@
 
   <div class="box-shadow-medium p-3 mt-3 overflow-hidden no-underline">
       <div class="d-flex flex-row flex-justify-center">
-        <img src="{{ user.avatar_url }}" class="circle mx-5" style="max-width: 200px; max-height: 200px">
+        <img src="{{ user.avatar_url }}" class="circle mx-5  flex-self-center" style="max-width: 200px; max-height: 200px">
         <div class="d-flex flex-column flex-wrap flex-justify-center">
           <h1 class="{% if site.style == 'dark' %}text-white{% endif %} lh-default">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
           {% if user.location %}
