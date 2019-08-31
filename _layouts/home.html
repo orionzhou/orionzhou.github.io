@@ -3,22 +3,25 @@
 <div class="container-lg py-6 p-responsive text-center">
   {% include navbar.html metadata=true %}
 
-  <div class="Box p-3 my-3 rounded-2 overflow-hidden no-underline">
-      <img src="{{ user.avatar_url }}" class="circle float-left mr-6" style="max-width: 150px;">
-      <div class="f3 lh-default text-left">
-        <h1 class="{% if site.style == 'dark' %}text-white{% endif %} lh-default">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
-        {% if user.location %}
-        <div class="f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-            <i class='fas fa-map-marker-alt fa-sm mr-1'></i>{{ user.location }}
+  <div class="box-shadow-medium p-3 mt-3 overflow-hidden no-underline">
+      <div class="d-flex flex-row flex-justify-center">
+        <img src="{{ user.avatar_url }}" class="circle mx-5" style="max-width: 200px; max-height: 200px">
+        <div class="d-flex flex-column flex-wrap flex-justify-center">
+          <h1 class="{% if site.style == 'dark' %}text-white{% endif %} lh-default">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
+          {% if user.location %}
+          <div class="f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+              <i class='fas fa-map-marker-alt fa-sm mr-1'></i>{{ user.location }}
+          </div>
+          {% endif %}
+          <p class="f3 {% if site.style == 'dark' %}text-white{% else %}text-gray-dark{% endif %}">
+            {{ user.bio }}
+          </p>
+          {% include social_bar.html %}
         </div>
-        {% endif %}
-        <p class="f3 {% if site.style == 'dark' %}text-white{% else %}text-gray-dark{% endif %}">
-          {{ user.bio }}
-        </p>
       </div>
   </div>
 
-  <div class="Box f4 text-left{% if site.style == 'dark' %} text-white{% endif %}">
+  <div class="box-shadow-medium f4 mt-3 text-left{% if site.style == 'dark' %} text-white{% endif %}">
     <div class="Box-body">
       <div class='ml-4'>
       {{ content | markdownify}}
@@ -26,7 +29,7 @@
     </div>
   </div>
 
-  {% include copyright.html %}
+  {% include copyright_simple.html %}
 
 </div>
 
