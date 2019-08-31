@@ -3,7 +3,7 @@
 <div class="container-lg py-6 p-responsive text-center">
   {% include navbar.html metadata=true %}
 
-  <div class="box-shadow-medium p-3 my-3 rounded-2 overflow-hidden no-underline">
+  <div class="Box p-3 my-3 rounded-2 overflow-hidden no-underline">
       <img src="{{ user.avatar_url }}" class="circle float-left mr-6" style="max-width: 150px;">
       <div class="f3 lh-default text-left">
         <h1 class="{% if site.style == 'dark' %}text-white{% endif %} lh-default">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
@@ -18,8 +18,12 @@
       </div>
   </div>
 
-  <div class="f4 text-left{% if site.style == 'dark' %} text-white{% endif %} m-4">
-    {{ content | markdownify }}
+  <div class="Box f4 text-left{% if site.style == 'dark' %} text-white{% endif %}">
+    <div class="Box-body">
+      <div class='ml-4'>
+      {{ content | markdownify}}
+      </div>
+    </div>
   </div>
 
   {% include copyright.html %}
