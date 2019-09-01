@@ -21,13 +21,7 @@
       </div>
   </div>
 
-  <div class="box-shadow-medium f4 mt-3 text-left{% if site.style == 'dark' %} text-white{% endif %}">
-    <div class="Box-body">
-      <div class='ml-4'>
-      {{ content | markdownify}}
-      </div>
-    </div>
-  </div>
+  {% include content.html %}
 
   {% include copyright_simple.html %}
 
