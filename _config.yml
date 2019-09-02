@@ -1,5 +1,18 @@
 layout: stacked
 style: light
+github: [metadata]
+encoding: UTF-8
+
+markdown: kramdown
+permalink: /:categories/:title/
+future: true
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+theme: jekyll-theme-primer
+gfm_quirks: paragraph_end
 
 plugins:
   - jekyll-octicons
