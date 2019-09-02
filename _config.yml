@@ -64,12 +64,15 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Python
+    web_url: https://www.python.org
+    icon_txt: fab fa-python
+  - name: R
+    web_url: https://www.python.org
+    icon_txt: fab fa-r-project
+  - name: High Performance Computing
+    web_url: https://en.wikipedia.org/wiki/Supercomputer
+    icon_txt: fas fa-server
+  - name: Cloud Computing
+    web_url: https://en.wikipedia.org/wiki/Cloud_computing
+    icon_txt: fas fa-cloud

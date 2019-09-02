@@ -3,9 +3,7 @@
 <div class="container-lg py-6 p-responsive text-center">
   {% include navbar.html metadata=true %}
 
-  <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
-    {{ content }}
-  </div>
+  {% include content.html %}
 
   <div class="my-6">
     {% include projects.html %}
