@@ -5,15 +5,19 @@ category: home
 
 I'm a post doctoral associate in the [Springer Lab](https://maizeumn.github.io) at the [University of Minnesota](https://twin-cities.umn.edu).
 
-I have a computer science background, have programming experiences in many computer languages but now settled on [python](https://www.python.org) and [R](https://cran.r-project.org): I use python for efficient data processing and R for modeling / visualization. Check my [GitHub <i class="fab fa-github-alt"></i>](https://github.com/orionzhou) for a list of useful libraries, scripts and configuration files.
+I am interested in answering complex biological questions using computational approaches:
 
-I'm a heavy [VIM](https://www.vim.org) user and I edit everything in terminal <i class="fas fa-laptop-code"></i>.
+  * Elucidation of molecular mechanisms underlying crop hybrid vigor using multi-omics approach; 
+  * Data mining on rapidly growing RNA-Sequencing resources for functional gene regulations;
+  * Elucidation of transcriptional regulatory differences in maize genotypes response to cold and heat stress; 
+  * Integrating RNA-Seq, ChIP-Seq, DAP-Seq, WGBS and ATAC-Seq to improve transcriptional network construction in maize;
+  * Identification and characterization of structural variation in plant genome, pan-genome architecture
+  * 
 
-I'm good at processing massive biological data through high-performance computing / cloud computing, check my [GitHub <i class="fab fa-github-alt"></i>](https://github.com/orionzhou) for a list of pipelines I implemented for various research projects.
+   
+Check the [Research <i class="fas fa-flask"></i>](/research) page for a list of projects I'm involved in.
 
-I'm especially good at data visualization. I create and typeset figures or tables for publication using [ggplot2](https://ggplot2.tidyverse.org) / [Rmarkdown](https://rmarkdown.rstudio.com). I'm a big fan of [tidyverse](https://www.tidyverse.org).
-
-Most of my current work can be viewed as data mining - from experimental design, data generation to preliminary data processing, statistical modeling and data visualization. Check the [Research <i class="fas fa-flask"></i>](/research) page for a list of projects I'm involved in.
+I have a computer science background, have programming experiences in many computer languages but now settled on [python](https://www.python.org) and [R](https://cran.r-project.org): I use python for efficient data processing and R for modeling / visualization. I'm good at massive biological data processing, high-performance computing, cloud computing, [VIM](https://www.vim.org) and data visualization using [ggplot2](https://ggplot2.tidyverse.org) / [Rmarkdown](https://rmarkdown.rstudio.com) /  [tidyverse](https://www.tidyverse.org). Check my [GitHub](https://github.com/orionzhou) for a list of useful libraries, scripts and configuration files.
 
 While I can spend all day long coding and data mining, here are a list of things keeping me busy after work:
 
