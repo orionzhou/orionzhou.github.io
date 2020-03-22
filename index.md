@@ -14,7 +14,6 @@ I am interested in answering complex biological questions using computational ap
   * Identification and characterization of structural variation in plant genome, pan-genome architecture
   * 
 
-   
 Check the [Research <i class="fas fa-flask"></i>](/research) page for a list of projects I'm involved in.
 
 I have a computer science background, have programming experiences in many computer languages but now settled on [python](https://www.python.org) and [R](https://cran.r-project.org): I use python for efficient data processing and R for modeling / visualization. I'm good at massive biological data processing, high-performance computing, cloud computing, [VIM](https://www.vim.org) and data visualization using [ggplot2](https://ggplot2.tidyverse.org) / [Rmarkdown](https://rmarkdown.rstudio.com) /  [tidyverse](https://www.tidyverse.org). Check my [GitHub](https://github.com/orionzhou) for a list of useful libraries, scripts and configuration files.
